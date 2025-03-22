@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "question-split"
+version = "0.1.0"
+description = ""
+authors = ["Bidaya0 <xianzelin984@outlook.com>"]
+readme = "README.md"
+packages = [{include = "question_split"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.43.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
